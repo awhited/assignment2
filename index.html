@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>awhited assignment2</title>
+    <link rel="stylesheet" href="./css/assig2.css">
+  </head>
+  <body>
+    <form action="/formsubmit.php" method="get" id="daform">
+      <fieldset class="hiddens">
+        <input type="hidden" name="visit" value="new">
+        <input type="hidden" name="user" value="auw6@pitt.edu">
+        <input type="hidden" name="productID" value="23455432">
+      </fieldset>
+      <fieldset class="text">
+        <div class="input-holder">
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname">
+        </div> 
+        <div class="input-holder">
+          <label for="lname">Last Name:</label>
+          <input type="text" name="lname">
+        </div> 
+        <div class="input-holder">
+          <label for="email">Email Address:</label>
+          <input type="text" name="email">
+        </div> 
+      </fieldset>
+      <fieldset class="radios">
+        <div class="radio holder">
+          <input type="radio" name="rad" value="rad1" id="rad1">
+          <label for="rad">Radio 1</label> 
+        </div>
+        <div class="radio holder">
+          <input type="radio" name="rad" value="rad2" id="rad2">
+          <label for="rad">Radio 2</label> 
+        </div>
+        <div class="radio holder">
+          <input type="radio" name="rad" value="rad3" id="rad3">
+          <label for="rad">Radio 3</label> 
+        </div>
+      </fieldset>
+      <fieldset class="checkboxes">
+        <label for="checkjawn">Check it!</label>
+        <input type="checkbox" name="checkjawn" value="yes">
+      </fieldset>
+      <fieldset class="form-submit">
+        <input type="submit">  
+      </fieldset>
+    </form> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/junk.js"></script>
+  </body>
+</html>
+
