@@ -1,0 +1,26 @@
+body {
+  background-image: url("../img/realconcrete.jpg");
+  border: 4ex;
+  padding: 8ex;
+  margin: 8ex;
+}
+
+.hiddens {
+
+}
+
+.text {
+  background-color: lightgrey;
+}
+
+.radios {
+  background-color: lightblue;
+}
+
+.checkboxes {
+  background-color: green;
+}
+
+.submit {
+  background: url(../img/submitd.png) no-repeat; /* this doesn't work...i'd love to know why */ 
+}
